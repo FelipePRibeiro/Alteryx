@@ -12,3 +12,20 @@ Output do Job, resultando em 4 Csv na modelagem Star Schema:
 
 ![image](https://user-images.githubusercontent.com/65839541/186562222-fba528bf-0f24-4450-9f98-a22f10693eb9.png)
 
+Fato Vendas:
+
+![image](https://user-images.githubusercontent.com/65839541/186563786-e133cbda-e973-4dee-95ab-107a215f4595.png)
+
+Dimensão Produto:
+
+![image](https://user-images.githubusercontent.com/65839541/186563834-b302c540-c476-4a9b-a3f3-4c1b1c19dd18.png)
+
+Dimensão Cliente:
+
+![image](https://user-images.githubusercontent.com/65839541/186563873-8d44c10f-8739-43e9-bef9-a484387aeeb1.png)
+
+Dimensão Localização:
+
+![image](https://user-images.githubusercontent.com/65839541/186563916-1763ccf4-f79f-404b-9886-9dd168c8afd4.png)
+
+
