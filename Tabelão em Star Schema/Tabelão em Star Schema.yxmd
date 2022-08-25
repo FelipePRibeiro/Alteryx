@@ -1,0 +1,720 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="18" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[dProduto
+]]></AnnotationText>
+          <DefaultAnnotationText>Sample Superstore.xlsx
+Query=`Sample Data$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Row ID" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Order ID" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Order Date" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Date" />
+            <Field name="Ship Date" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Date" />
+            <Field name="Category" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Sub-Category" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Ship Mode" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Customer ID" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Customer Name" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Segment" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Country/Region" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Postal Code" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Region" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Product ID" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Sales" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Quantity" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Discount" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Profit" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="390" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Category" selected="True" />
+            <Field field="Sub-Category" selected="True" />
+            <Field field="Product ID" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Category" size="15" source="Formula: Trim([_CurrentField_])" type="String" />
+            <Field name="Sub-Category" size="11" source="Formula: Trim([_CurrentField_])" type="String" />
+            <Field name="Product ID" size="15" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="102" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Category" selected="True" />
+            <SelectField field="Sub-Category" selected="True" />
+            <SelectField field="Product ID" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="186" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Category" />
+            <Field field="Sub-Category" />
+            <Field field="Product ID" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="282" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="Category" />
+            <Field name="Sub-Category" />
+            <Field name="Product ID" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>Trim([_CurrentField_])</Expression>
+          <ChangeFieldType value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Remove espaços de Category e Subcategory</AnnotationText>
+          <DefaultAnnotationText>Trim([_CurrentField_])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="18" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>dCliente</AnnotationText>
+          <DefaultAnnotationText>Sample Superstore.xlsx
+Query=`Sample Data$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Row ID" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Order ID" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Order Date" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Date" />
+            <Field name="Ship Date" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Date" />
+            <Field name="Category" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Sub-Category" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Ship Mode" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Customer ID" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Customer Name" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Segment" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Country/Region" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Postal Code" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Region" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Product ID" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Sales" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Quantity" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Discount" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Profit" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="282" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Customer ID" selected="True" />
+            <Field field="Customer Name" selected="True" />
+            <Field field="Segment" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer ID" size="8" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="String" />
+            <Field name="Customer Name" size="22" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Segment" size="11" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="102" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Customer ID" selected="True" />
+            <SelectField field="Customer Name" selected="True" />
+            <SelectField field="Segment" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="198" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Customer ID" />
+            <Field field="Customer Name" />
+            <Field field="Segment" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="18" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>dLocalização</AnnotationText>
+          <DefaultAnnotationText>Sample Superstore.xlsx
+Query=`Sample Data$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Row ID" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Order ID" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Order Date" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Date" />
+            <Field name="Ship Date" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Date" />
+            <Field name="Category" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Sub-Category" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Ship Mode" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Customer ID" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Customer Name" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Segment" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Country/Region" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Postal Code" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Region" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Product ID" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Sales" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Quantity" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Discount" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Profit" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="282" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Country/Region" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Region" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Country/Region" size="13" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="String" />
+            <Field name="City" size="17" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="State" size="20" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Postal Code" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Region" size="7" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="102" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Country/Region" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="Postal Code" selected="True" />
+            <SelectField field="Region" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="186" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Country/Region" />
+            <Field field="City" />
+            <Field field="State" />
+            <Field field="Postal Code" />
+            <Field field="Region" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="486" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Faculdade\Desktop\Projetos\ALTERYX\Exportações\Tabelão em Star Schema 2\dProduto.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>;</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dProduto.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="378" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Faculdade\Desktop\Projetos\ALTERYX\Exportações\Tabelão em Star Schema 2\dLocalização.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>;</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dLocalização.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="390" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Faculdade\Desktop\Projetos\ALTERYX\Exportações\Tabelão em Star Schema 2\dCliente.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>;</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dCliente.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="294" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Faculdade\Desktop\Projetos\ALTERYX\Exportações\Tabelão em Star Schema 2\fVendas.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>;</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>fVendas.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="102" y="17" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Order Date" selected="True" />
+            <SelectField field="Ship Date" selected="True" />
+            <SelectField field="Ship Mode" selected="True" />
+            <SelectField field="Customer ID" selected="True" />
+            <SelectField field="Postal Code" selected="True" />
+            <SelectField field="Product ID" selected="True" />
+            <SelectField field="Sales" selected="True" />
+            <SelectField field="Quantity" selected="True" />
+            <SelectField field="Discount" selected="True" />
+            <SelectField field="Profit" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="198" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Ship Mode" selected="True" />
+            <Field field="Customer ID" selected="True" />
+            <Field field="Product ID" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Order Date" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Date" />
+            <Field name="Ship Date" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Date" />
+            <Field name="Ship Mode" size="14" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="String" />
+            <Field name="Customer ID" size="8" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="String" />
+            <Field name="Postal Code" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Product ID" size="15" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="String" />
+            <Field name="Sales" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Quantity" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Discount" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Profit" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="18" y="17" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>fVendas</AnnotationText>
+          <DefaultAnnotationText>Sample Superstore.xlsx
+Query=`Sample Data$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Row ID" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Order ID" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Order Date" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Date" />
+            <Field name="Ship Date" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Date" />
+            <Field name="Category" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Sub-Category" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Ship Mode" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Customer ID" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Customer Name" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Segment" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Country/Region" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Postal Code" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Region" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Product ID" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="V_String" />
+            <Field name="Sales" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Quantity" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Discount" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+            <Field name="Profit" source="File: C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Bases\Section 5. Filters and Functions\Sample Superstore.xlsx|||`Sample Data$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Unique" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Unique" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Unique" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Tabelão em Star Schema 2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="e7b90efc-00d4-42c6-b331-9a9c0a591a4c" />
+      <Telemetry>
+        <PreviousWorkflowId value="6888b6d5-5abf-4e63-baf7-42ab413ef2cb" />
+        <OriginWorkflowId value="6888b6d5-5abf-4e63-baf7-42ab413ef2cb" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
