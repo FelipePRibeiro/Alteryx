@@ -1,0 +1,437 @@
+﻿Ano;Mês;Região;UF;Cidade;Faturamento;Quantidade
+2017;Agosto;Sudeste;RJ;Macaé;5450;32
+2017;Junho;Sudeste;RJ;Macaé;3734;22
+2017;Abril;Sudeste;SP;Santos;8498;49
+2017;Setembro;Sudeste;SP;Campinas;2716;16
+2017;Janeiro;Sudeste;RJ;Niterói;4874;28
+2018;Fevereiro;Sul;PR;São José dos Pinhais;7981;46
+2018;Novembro;Sul;SC;Florianópolis;7270;42
+2018;Fevereiro;Sudeste;SP;Santos;5753;33
+2018;Novembro;Nordeste;CE;Juazeiro do Norte;9869;57
+2017;Abril;Sul;PR;Maringá;2883;17
+2018;Maio;Sul;PR;São José dos Pinhais;2950;17
+2017;Março;Nordeste;CE;Sobral;8680;50
+2018;Agosto;Sul;PR;Curitiba;1149;7
+2018;Novembro;Sudeste;RJ;Volta Redonda;4515;26
+2017;Setembro;Sudeste;RJ;Niterói;460;3
+2017;Março;Sudeste;RJ;Niterói;1133;7
+2017;Dezembro;Sul;PR;Maringá;2317;13
+2018;Março;Sudeste;SP;Campinas;4068;24
+2018;Agosto;Sul;PR;Maringá;6424;37
+2017;Novembro;Sudeste;SP;Campinas;4413;26
+2017;Janeiro;Sul;PR;Curitiba;7129;41
+2017;Outubro;Sudeste;SP;São Paulo;8582;50
+2019;Abril;Sudeste;RJ;Rio de Janeiro;8425;49
+2019;Janeiro;Sudeste;SP;Santos;9886;57
+2017;Outubro;Sul;PR;Curitiba;9091;53
+2017;Dezembro;Sudeste;SP;Campinas;4372;25
+2018;Maio;Nordeste;CE;Fortaleza;5776;33
+2019;Março;Sul;SC;Joinville;7252;42
+2018;Agosto;Sudeste;SP;Campinas;173;1
+2018;Dezembro;Centro-Oeste;GO;Goiânia;2940;17
+2017;Novembro;Nordeste;CE;Fortaleza;9378;54
+2018;Outubro;Sudeste;SP;Campinas;3650;21
+2019;Março;Sudeste;RJ;Macaé;455;3
+2017;Fevereiro;Sul;PR;Curitiba;9792;57
+2017;Dezembro;Sudeste;RJ;Volta Redonda;2037;12
+2018;Julho;Nordeste;CE;Juazeiro do Norte;257;1
+2017;Janeiro;Nordeste;CE;Fortaleza;4365;25
+2018;Maio;Nordeste;CE;Sobral;1538;9
+2018;Março;Nordeste;CE;Caucaia;7162;41
+2018;Maio;Centro-Oeste;GO;Goiânia;2207;13
+2017;Setembro;Nordeste;CE;Juazeiro do Norte;7167;41
+2018;Agosto;Nordeste;CE;Caucaia;3369;19
+2019;Fevereiro;Sul;SC;Florianópolis;712;4
+2017;Agosto;Sudeste;RJ;Rio de Janeiro;9965;58
+2018;Novembro;Sudeste;SP;Santos;9592;55
+2018;Janeiro;Sudeste;SP;São Paulo;1598;9
+2017;Maio;Sudeste;SP;São Paulo;5207;30
+2017;Novembro;Sudeste;SP;Santos;303;2
+2018;Junho;Centro-Oeste;GO;Goiânia;7681;44
+2018;Setembro;Sul;SC;Joinville;6909;40
+2017;Julho;Sudeste;SP;Campinas;9941;57
+2018;Janeiro;Nordeste;CE;Sobral;483;3
+2018;Setembro;Sudeste;RJ;Rio de Janeiro;4906;28
+2018;Maio;Nordeste;CE;Caucaia;1610;9
+2018;Fevereiro;Sudeste;SP;Campinas;8089;47
+2018;Setembro;Centro-Oeste;GO;Goiânia;9891;57
+2017;Março;Sudeste;SP;São Paulo;5585;32
+2018;Janeiro;Sudeste;RJ;Macaé;8813;51
+2017;Janeiro;Sudeste;SP;São Paulo;612;4
+2018;Janeiro;Sul;SC;Florianópolis;5715;33
+2019;Janeiro;Sudeste;RJ;Macaé;513;3
+2017;Maio;Sudeste;SP;Santos;3693;21
+2019;Fevereiro;Sudeste;RJ;Volta Redonda;7273;42
+2018;Setembro;Sul;PR;Curitiba;1503;9
+2017;Julho;Sul;SC;Florianópolis;7920;46
+2017;Março;Sul;SC;Florianópolis;5149;30
+2017;Fevereiro;Sudeste;RJ;Niterói;551;3
+2017;Outubro;Sul;SC;Joinville;6945;40
+2019;Abril;Nordeste;CE;Fortaleza;1898;11
+2018;Novembro;Sul;PR;São José dos Pinhais;2921;17
+2019;Fevereiro;Sudeste;RJ;Macaé;7113;41
+2018;Agosto;Sudeste;RJ;Volta Redonda;9569;55
+2018;Junho;Nordeste;CE;Caucaia;7528;44
+2017;Setembro;Nordeste;CE;Fortaleza;5228;30
+2018;Junho;Sudeste;SP;Campinas;5191;30
+2017;Novembro;Nordeste;CE;Caucaia;6694;39
+2018;Agosto;Sudeste;RJ;Rio de Janeiro;610;4
+2018;Julho;Sul;SC;Florianópolis;4148;24
+2017;Janeiro;Nordeste;CE;Caucaia;1729;10
+2017;Junho;Sudeste;RJ;Niterói;6755;39
+2017;Maio;Sul;SC;Joinville;8169;47
+2017;Janeiro;Sudeste;RJ;Rio de Janeiro;2769;16
+2017;Julho;Sudeste;RJ;Niterói;1537;9
+2018;Junho;Sudeste;RJ;Macaé;5518;32
+2017;Junho;Sudeste;SP;Campinas;7833;45
+2019;Abril;Sul;PR;São José dos Pinhais;1086;6
+2019;Março;Sudeste;SP;Santos;2212;13
+2017;Junho;Nordeste;CE;Juazeiro do Norte;5439;31
+2017;Março;Sul;PR;Curitiba;8214;47
+2017;Dezembro;Sudeste;RJ;Niterói;6519;38
+2018;Abril;Centro-Oeste;GO;Goiânia;4103;24
+2017;Fevereiro;Sudeste;SP;Campinas;414;2
+2017;Janeiro;Sudeste;SP;Campinas;2945;17
+2018;Novembro;Sudeste;RJ;Macaé;3473;20
+2019;Fevereiro;Nordeste;CE;Caucaia;6839;40
+2017;Dezembro;Sudeste;SP;Santos;6051;35
+2018;Outubro;Sul;PR;São José dos Pinhais;7926;46
+2017;Novembro;Sul;SC;Joinville;2484;14
+2017;Março;Sudeste;SP;Campinas;1643;9
+2018;Abril;Sudeste;RJ;Volta Redonda;5082;29
+2018;Setembro;Sudeste;RJ;Volta Redonda;3261;19
+2017;Setembro;Sul;PR;Maringá;803;5
+2017;Novembro;Sudeste;RJ;Volta Redonda;6389;37
+2018;Julho;Sudeste;SP;São Paulo;6025;35
+2018;Março;Sudeste;RJ;Rio de Janeiro;7486;43
+2017;Novembro;Sul;PR;São José dos Pinhais;1909;11
+2019;Janeiro;Sudeste;SP;São Paulo;8387;48
+2019;Abril;Sudeste;RJ;Volta Redonda;3892;22
+2017;Setembro;Sudeste;SP;Santos;8926;52
+2018;Junho;Sudeste;RJ;Volta Redonda;948;5
+2017;Outubro;Nordeste;CE;Sobral;454;3
+2019;Março;Nordeste;CE;Caucaia;2877;17
+2017;Novembro;Sudeste;SP;São Paulo;8571;50
+2017;Maio;Sul;PR;Maringá;5208;30
+2017;Janeiro;Sul;PR;São José dos Pinhais;5914;34
+2018;Janeiro;Nordeste;CE;Caucaia;4711;27
+2018;Dezembro;Sudeste;RJ;Volta Redonda;7974;46
+2017;Dezembro;Sudeste;RJ;Macaé;7900;46
+2018;Setembro;Sudeste;SP;Campinas;1118;6
+2019;Janeiro;Sul;SC;Florianópolis;9785;57
+2017;Abril;Sudeste;SP;São Paulo;2418;14
+2017;Agosto;Sul;PR;Curitiba;6100;35
+2017;Outubro;Nordeste;CE;Fortaleza;3434;20
+2017;Setembro;Nordeste;CE;Caucaia;8964;52
+2017;Novembro;Sul;PR;Maringá;9054;52
+2018;Fevereiro;Sudeste;RJ;Rio de Janeiro;6466;37
+2017;Maio;Nordeste;CE;Caucaia;604;3
+2019;Fevereiro;Sul;PR;Curitiba;1041;6
+2019;Abril;Sudeste;SP;Campinas;1561;9
+2018;Maio;Nordeste;CE;Juazeiro do Norte;2180;13
+2018;Novembro;Sudeste;RJ;Rio de Janeiro;2856;17
+2018;Outubro;Sudeste;RJ;Volta Redonda;9838;57
+2017;Junho;Sul;PR;Maringá;5541;32
+2018;Janeiro;Nordeste;CE;Fortaleza;8444;49
+2017;Setembro;Sudeste;SP;São Paulo;512;3
+2017;Maio;Sul;PR;São José dos Pinhais;6453;37
+2018;Dezembro;Nordeste;CE;Fortaleza;3514;20
+2018;Agosto;Nordeste;CE;Juazeiro do Norte;6892;40
+2018;Agosto;Sul;SC;Joinville;9500;55
+2019;Abril;Sudeste;SP;São Paulo;7561;44
+2018;Novembro;Sul;PR;Maringá;7482;43
+2017;Novembro;Nordeste;CE;Sobral;795;5
+2017;Fevereiro;Nordeste;CE;Sobral;2691;16
+2018;Abril;Nordeste;CE;Fortaleza;8388;48
+2019;Março;Sudeste;RJ;Volta Redonda;7541;44
+2017;Maio;Sudeste;RJ;Rio de Janeiro;3830;22
+2017;Agosto;Sudeste;SP;Campinas;1851;11
+2017;Julho;Sudeste;RJ;Macaé;3604;21
+2017;Março;Sudeste;RJ;Volta Redonda;9240;53
+2018;Fevereiro;Centro-Oeste;GO;Goiânia;2023;12
+2018;Abril;Sudeste;SP;Santos;7772;45
+2018;Julho;Sudeste;RJ;Macaé;1760;10
+2017;Janeiro;Sudeste;RJ;Macaé;642;4
+2017;Julho;Sul;SC;Joinville;6148;36
+2017;Julho;Sudeste;SP;Santos;3100;18
+2017;Março;Sudeste;SP;Santos;4304;25
+2017;Setembro;Sudeste;RJ;Macaé;1980;11
+2017;Julho;Nordeste;CE;Juazeiro do Norte;2573;15
+2017;Maio;Sul;SC;Florianópolis;4161;24
+2018;Abril;Sudeste;RJ;Macaé;4673;27
+2018;Dezembro;Sul;PR;São José dos Pinhais;7653;44
+2018;Setembro;Nordeste;CE;Fortaleza;8951;52
+2019;Fevereiro;Sudeste;SP;Santos;6626;38
+2018;Outubro;Sudeste;SP;São Paulo;8921;52
+2017;Junho;Sul;SC;Florianópolis;183;1
+2019;Janeiro;Sul;PR;Curitiba;8465;49
+2019;Fevereiro;Sudeste;RJ;Rio de Janeiro;2606;15
+2017;Abril;Nordeste;CE;Fortaleza;4679;27
+2017;Junho;Sudeste;RJ;Rio de Janeiro;3815;22
+2018;Abril;Sudeste;SP;São Paulo;1395;8
+2019;Fevereiro;Nordeste;CE;Fortaleza;9450;55
+2018;Dezembro;Nordeste;CE;Caucaia;8838;51
+2017;Agosto;Sudeste;RJ;Niterói;768;4
+2017;Fevereiro;Sudeste;SP;São Paulo;1443;8
+2018;Abril;Sudeste;SP;Campinas;8613;50
+2018;Abril;Nordeste;CE;Caucaia;1249;7
+2017;Outubro;Sul;PR;São José dos Pinhais;4246;25
+2017;Fevereiro;Nordeste;CE;Caucaia;8986;52
+2017;Setembro;Sudeste;RJ;Volta Redonda;3735;22
+2017;Fevereiro;Sul;SC;Joinville;4831;28
+2018;Janeiro;Sudeste;SP;Campinas;6319;37
+2017;Março;Sul;PR;Maringá;5265;30
+2017;Agosto;Sudeste;SP;São Paulo;4768;28
+2017;Abril;Nordeste;CE;Juazeiro do Norte;1378;8
+2018;Fevereiro;Sul;SC;Joinville;1043;6
+2018;Outubro;Nordeste;CE;Fortaleza;7206;42
+2018;Fevereiro;Sul;SC;Florianópolis;3693;21
+2018;Dezembro;Sudeste;SP;Campinas;6249;36
+2017;Abril;Sul;SC;Florianópolis;4868;28
+2019;Março;Sul;PR;Curitiba;502;3
+2018;Setembro;Nordeste;CE;Caucaia;2774;16
+2017;Maio;Sudeste;RJ;Macaé;5816;34
+2017;Janeiro;Sudeste;SP;Santos;4055;23
+2017;Junho;Nordeste;CE;Sobral;2920;17
+2018;Agosto;Sudeste;RJ;Macaé;5794;33
+2018;Junho;Sul;PR;Curitiba;1381;8
+2017;Julho;Sul;PR;Maringá;4296;25
+2017;Abril;Sudeste;RJ;Rio de Janeiro;4054;23
+2018;Maio;Sul;PR;Curitiba;9691;56
+2017;Setembro;Sul;PR;São José dos Pinhais;6834;40
+2018;Outubro;Sul;SC;Joinville;9893;57
+2018;Maio;Sudeste;SP;São Paulo;9385;54
+2017;Março;Nordeste;CE;Caucaia;8808;51
+2017;Junho;Sudeste;RJ;Volta Redonda;8927;52
+2019;Janeiro;Sudeste;RJ;Rio de Janeiro;5126;30
+2017;Março;Sudeste;RJ;Rio de Janeiro;6798;39
+2018;Maio;Sudeste;SP;Santos;8992;52
+2017;Dezembro;Nordeste;CE;Juazeiro do Norte;8327;48
+2017;Agosto;Nordeste;CE;Fortaleza;1618;9
+2018;Março;Sudeste;RJ;Macaé;1319;8
+2017;Maio;Nordeste;CE;Juazeiro do Norte;4366;25
+2019;Janeiro;Sul;SC;Joinville;3544;20
+2018;Novembro;Centro-Oeste;GO;Goiânia;9310;54
+2019;Abril;Sudeste;RJ;Macaé;1322;8
+2017;Dezembro;Sul;SC;Florianópolis;5849;34
+2018;Setembro;Sul;PR;Maringá;1514;9
+2017;Outubro;Sudeste;RJ;Macaé;1519;9
+2017;Junho;Sul;PR;Curitiba;8900;51
+2018;Setembro;Sudeste;SP;São Paulo;5459;32
+2017;Dezembro;Sul;PR;Curitiba;4871;28
+2019;Abril;Sul;SC;Florianópolis;2893;17
+2018;Junho;Sul;PR;Maringá;553;3
+2017;Agosto;Sudeste;SP;Santos;2948;17
+2018;Agosto;Sudeste;SP;Santos;1912;11
+2018;Setembro;Nordeste;CE;Sobral;3272;19
+2018;Setembro;Sul;PR;São José dos Pinhais;1982;11
+2018;Setembro;Nordeste;CE;Juazeiro do Norte;8556;49
+2017;Outubro;Nordeste;CE;Juazeiro do Norte;6464;37
+2018;Julho;Sudeste;RJ;Rio de Janeiro;6017;35
+2017;Maio;Sudeste;RJ;Volta Redonda;5020;29
+2017;Julho;Nordeste;CE;Sobral;5420;31
+2018;Julho;Nordeste;CE;Fortaleza;2823;16
+2018;Agosto;Centro-Oeste;GO;Goiânia;4718;27
+2017;Abril;Sudeste;RJ;Macaé;2192;13
+2017;Fevereiro;Sul;PR;São José dos Pinhais;1869;11
+2018;Janeiro;Sul;PR;Maringá;6560;38
+2018;Dezembro;Nordeste;CE;Sobral;7052;41
+2017;Fevereiro;Sudeste;RJ;Macaé;3120;18
+2018;Outubro;Nordeste;CE;Caucaia;5440;31
+2017;Junho;Sul;SC;Joinville;2832;16
+2018;Abril;Nordeste;CE;Sobral;2031;12
+2018;Fevereiro;Nordeste;CE;Sobral;226;1
+2017;Maio;Nordeste;CE;Sobral;8510;49
+2018;Março;Sul;PR;Maringá;2940;17
+2017;Dezembro;Sudeste;RJ;Rio de Janeiro;4226;24
+2017;Dezembro;Sudeste;SP;São Paulo;8318;48
+2018;Junho;Sul;SC;Joinville;6251;36
+2018;Janeiro;Sudeste;RJ;Volta Redonda;240;1
+2017;Outubro;Sul;SC;Florianópolis;5735;33
+2018;Março;Sul;SC;Florianópolis;6706;39
+2018;Março;Centro-Oeste;GO;Goiânia;3428;20
+2018;Março;Sul;SC;Joinville;404;2
+2019;Abril;Sul;PR;Curitiba;1786;10
+2018;Junho;Nordeste;CE;Juazeiro do Norte;588;3
+2018;Março;Sudeste;RJ;Volta Redonda;8181;47
+2018;Outubro;Sudeste;RJ;Rio de Janeiro;471;3
+2017;Outubro;Sul;PR;Maringá;5444;31
+2017;Março;Sul;PR;São José dos Pinhais;4597;27
+2019;Março;Sul;PR;São José dos Pinhais;8618;50
+2017;Agosto;Sul;SC;Florianópolis;920;5
+2017;Abril;Sudeste;SP;Campinas;5759;33
+2017;Agosto;Nordeste;CE;Sobral;1009;6
+2018;Fevereiro;Sul;PR;Curitiba;8291;48
+2018;Janeiro;Sudeste;RJ;Rio de Janeiro;3023;17
+2017;Março;Nordeste;CE;Juazeiro do Norte;5982;35
+2017;Agosto;Nordeste;CE;Caucaia;9370;54
+2017;Agosto;Sul;PR;São José dos Pinhais;6224;36
+2018;Novembro;Nordeste;CE;Sobral;4094;24
+2018;Agosto;Sul;PR;São José dos Pinhais;6979;40
+2018;Dezembro;Sul;SC;Florianópolis;3052;18
+2018;Maio;Sudeste;SP;Campinas;5635;33
+2018;Março;Nordeste;CE;Fortaleza;4158;24
+2018;Dezembro;Sul;PR;Curitiba;6872;40
+2017;Abril;Nordeste;CE;Sobral;4454;26
+2017;Agosto;Nordeste;CE;Juazeiro do Norte;940;5
+2018;Janeiro;Centro-Oeste;GO;Goiânia;886;5
+2018;Outubro;Sul;PR;Curitiba;5956;34
+2018;Dezembro;Sul;SC;Joinville;4753;27
+2017;Agosto;Sul;SC;Joinville;9900;57
+2019;Março;Nordeste;CE;Fortaleza;7402;43
+2017;Abril;Sudeste;RJ;Niterói;8356;48
+2017;Novembro;Sudeste;RJ;Rio de Janeiro;4014;23
+2018;Fevereiro;Sudeste;RJ;Volta Redonda;3205;19
+2017;Outubro;Nordeste;CE;Caucaia;3370;19
+2019;Abril;Sudeste;SP;Santos;7728;45
+2019;Janeiro;Nordeste;CE;Caucaia;5306;31
+2018;Abril;Sudeste;RJ;Rio de Janeiro;1973;11
+2018;Abril;Nordeste;CE;Juazeiro do Norte;7098;41
+2017;Junho;Nordeste;CE;Caucaia;1524;9
+2018;Julho;Sul;PR;São José dos Pinhais;4288;25
+2017;Dezembro;Sul;PR;São José dos Pinhais;6431;37
+2018;Novembro;Sul;SC;Joinville;7090;41
+2019;Abril;Sul;SC;Joinville;7113;41
+2018;Novembro;Sul;PR;Curitiba;6519;38
+2017;Dezembro;Nordeste;CE;Fortaleza;3266;19
+2017;Fevereiro;Sudeste;RJ;Volta Redonda;1877;11
+2018;Outubro;Sudeste;RJ;Macaé;1352;8
+2019;Março;Sul;SC;Florianópolis;6640;38
+2018;Fevereiro;Nordeste;CE;Juazeiro do Norte;547;3
+2017;Dezembro;Sul;SC;Joinville;1618;9
+2017;Janeiro;Sul;SC;Florianópolis;1058;6
+2018;Junho;Sudeste;SP;Santos;5593;32
+2018;Junho;Sudeste;SP;São Paulo;7661;44
+2017;Abril;Sul;PR;Curitiba;5350;31
+2018;Setembro;Sudeste;SP;Santos;6174;36
+2017;Agosto;Sul;PR;Maringá;4925;28
+2019;Janeiro;Sul;PR;Maringá;2704;16
+2018;Abril;Sul;PR;São José dos Pinhais;4702;27
+2017;Abril;Sul;SC;Joinville;7151;41
+2019;Janeiro;Sudeste;SP;Campinas;5245;30
+2019;Fevereiro;Sul;SC;Joinville;4814;28
+2018;Setembro;Sul;SC;Florianópolis;6460;37
+2019;Fevereiro;Sudeste;SP;Campinas;2121;12
+2017;Janeiro;Sudeste;RJ;Volta Redonda;798;5
+2018;Maio;Sudeste;RJ;Macaé;858;5
+2017;Junho;Sudeste;SP;Santos;847;5
+2019;Fevereiro;Sul;PR;São José dos Pinhais;3024;17
+2018;Julho;Sudeste;SP;Santos;3060;18
+2018;Maio;Sul;PR;Maringá;1572;9
+2018;Novembro;Sudeste;SP;São Paulo;3565;21
+2018;Abril;Sul;SC;Joinville;9321;54
+2018;Junho;Sul;SC;Florianópolis;835;5
+2017;Maio;Sudeste;RJ;Niterói;6122;35
+2018;Outubro;Sul;PR;Maringá;1985;11
+2017;Junho;Sul;PR;São José dos Pinhais;1723;10
+2017;Fevereiro;Nordeste;CE;Fortaleza;3979;23
+2018;Fevereiro;Nordeste;CE;Caucaia;8328;48
+2018;Maio;Sudeste;RJ;Rio de Janeiro;7663;44
+2018;Março;Nordeste;CE;Juazeiro do Norte;5588;32
+2018;Janeiro;Sul;PR;Curitiba;9759;56
+2017;Maio;Sudeste;SP;Campinas;6223;36
+2018;Março;Sudeste;SP;São Paulo;7973;46
+2018;Dezembro;Sul;PR;Maringá;1033;6
+2019;Fevereiro;Sul;PR;Maringá;5346;31
+2017;Agosto;Sudeste;RJ;Volta Redonda;7179;41
+2018;Julho;Nordeste;CE;Caucaia;7058;41
+2018;Janeiro;Nordeste;CE;Juazeiro do Norte;4148;24
+2017;Abril;Nordeste;CE;Caucaia;219;1
+2017;Setembro;Sul;PR;Curitiba;2687;16
+2018;Dezembro;Sudeste;SP;Santos;9702;56
+2018;Julho;Sul;PR;Curitiba;3632;21
+2018;Julho;Nordeste;CE;Sobral;747;4
+2017;Janeiro;Nordeste;CE;Juazeiro do Norte;9815;57
+2017;Dezembro;Nordeste;CE;Caucaia;2752;16
+2018;Março;Nordeste;CE;Sobral;6627;38
+2019;Abril;Nordeste;CE;Caucaia;3402;20
+2019;Abril;Sul;PR;Maringá;4920;28
+2017;Setembro;Sul;SC;Florianópolis;9297;54
+2017;Abril;Sudeste;RJ;Volta Redonda;8432;49
+2018;Junho;Sudeste;RJ;Rio de Janeiro;3631;21
+2018;Maio;Sudeste;RJ;Volta Redonda;2698;16
+2018;Julho;Sul;SC;Joinville;2787;16
+2018;Abril;Sul;SC;Florianópolis;5915;34
+2018;Abril;Sul;PR;Curitiba;6231;36
+2017;Outubro;Sudeste;RJ;Rio de Janeiro;4377;25
+2018;Junho;Sul;PR;São José dos Pinhais;9548;55
+2017;Fevereiro;Sudeste;SP;Santos;8439;49
+2017;Março;Sudeste;RJ;Macaé;9485;55
+2017;Fevereiro;Sul;SC;Florianópolis;8272;48
+2018;Novembro;Nordeste;CE;Caucaia;9404;54
+2018;Fevereiro;Sudeste;RJ;Macaé;5409;31
+2017;Outubro;Sudeste;RJ;Volta Redonda;9579;55
+2018;Março;Sudeste;SP;Santos;6447;37
+2017;Maio;Sul;PR;Curitiba;5339;31
+2017;Junho;Nordeste;CE;Fortaleza;3680;21
+2018;Dezembro;Sudeste;SP;São Paulo;8301;48
+2017;Junho;Sudeste;SP;São Paulo;3145;18
+2017;Setembro;Sudeste;RJ;Rio de Janeiro;1502;9
+2018;Março;Sul;PR;Curitiba;3307;19
+2018;Outubro;Nordeste;CE;Juazeiro do Norte;1398;8
+2018;Fevereiro;Sul;PR;Maringá;8036;46
+2018;Dezembro;Sudeste;RJ;Macaé;451;3
+2018;Maio;Sul;SC;Florianópolis;1973;11
+2017;Fevereiro;Sudeste;RJ;Rio de Janeiro;7656;44
+2017;Novembro;Nordeste;CE;Juazeiro do Norte;6799;39
+2018;Outubro;Sudeste;SP;Santos;5058;29
+2017;Outubro;Sudeste;RJ;Niterói;1703;10
+2018;Dezembro;Sudeste;RJ;Rio de Janeiro;3159;18
+2018;Fevereiro;Nordeste;CE;Fortaleza;478;3
+2017;Novembro;Sudeste;RJ;Niterói;406;2
+2018;Outubro;Centro-Oeste;GO;Goiânia;4615;27
+2019;Março;Sudeste;SP;São Paulo;4269;25
+2017;Julho;Sudeste;SP;São Paulo;223;1
+2019;Março;Sul;PR;Maringá;5818;34
+2018;Fevereiro;Sudeste;SP;São Paulo;3372;19
+2018;Outubro;Sul;SC;Florianópolis;7708;45
+2018;Julho;Sudeste;SP;Campinas;3059;18
+2018;Agosto;Sudeste;SP;São Paulo;5140;30
+2017;Fevereiro;Nordeste;CE;Juazeiro do Norte;9560;55
+2017;Julho;Nordeste;CE;Caucaia;6127;35
+2019;Março;Sudeste;RJ;Rio de Janeiro;9668;56
+2018;Julho;Sul;PR;Maringá;6533;38
+2018;Agosto;Nordeste;CE;Sobral;5888;34
+2017;Maio;Nordeste;CE;Fortaleza;3900;23
+2017;Dezembro;Nordeste;CE;Sobral;7169;41
+2018;Outubro;Nordeste;CE;Sobral;8715;50
+2017;Julho;Sul;PR;Curitiba;8462;49
+2018;Maio;Sul;SC;Joinville;3384;20
+2017;Julho;Sul;PR;São José dos Pinhais;6454;37
+2018;Agosto;Nordeste;CE;Fortaleza;7727;45
+2017;Fevereiro;Sul;PR;Maringá;6033;35
+2017;Janeiro;Sul;PR;Maringá;8286;48
+2017;Janeiro;Sul;SC;Joinville;4044;23
+2017;Abril;Sul;PR;São José dos Pinhais;7649;44
+2017;Janeiro;Nordeste;CE;Sobral;2206;13
+2018;Novembro;Sudeste;SP;Campinas;2594;15
+2018;Dezembro;Nordeste;CE;Juazeiro do Norte;8524;49
+2018;Junho;Nordeste;CE;Fortaleza;3564;21
+2019;Janeiro;Nordeste;CE;Fortaleza;8028;46
+2018;Março;Sul;PR;São José dos Pinhais;2072;12
+2019;Janeiro;Sul;PR;São José dos Pinhais;4489;26
+2019;Março;Sudeste;SP;Campinas;8275;48
+2017;Março;Sul;SC;Joinville;7292;42
+2017;Novembro;Sul;SC;Florianópolis;7383;43
+2018;Setembro;Sudeste;RJ;Macaé;7327;42
+2018;Novembro;Nordeste;CE;Fortaleza;3862;22
+2017;Março;Nordeste;CE;Fortaleza;9052;52
+2018;Julho;Centro-Oeste;GO;Goiânia;7228;42
+2019;Fevereiro;Sudeste;SP;São Paulo;491;3
+2018;Janeiro;Sul;PR;São José dos Pinhais;725;4
+2017;Julho;Sudeste;RJ;Rio de Janeiro;6167;36
+2017;Setembro;Nordeste;CE;Sobral;2747;16
+2019;Janeiro;Sudeste;RJ;Volta Redonda;1526;9
+2017;Julho;Nordeste;CE;Fortaleza;8234;48
+2018;Julho;Sudeste;RJ;Volta Redonda;1024;6
+2017;Novembro;Sudeste;RJ;Macaé;7666;44
+2017;Julho;Sudeste;RJ;Volta Redonda;4154;24
+2017;Novembro;Sul;PR;Curitiba;8971;52
+2017;Outubro;Sudeste;SP;Santos;8692;50
+2017;Outubro;Sudeste;SP;Campinas;9714;56
+2018;Agosto;Sul;SC;Florianópolis;5444;31
+2018;Junho;Nordeste;CE;Sobral;1567;9
+2017;Setembro;Sul;SC;Joinville;5146;30
+2018;Janeiro;Sudeste;SP;Santos;7783;45
+2018;Abril;Sul;PR;Maringá;2758;16
+2018;Janeiro;Sul;SC;Joinville;3653;21
