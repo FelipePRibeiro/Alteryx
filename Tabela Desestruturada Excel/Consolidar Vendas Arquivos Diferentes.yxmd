@@ -1,0 +1,665 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="FileName" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas*.xlsx|||`Planilha1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>2</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Load Arquivos Vendas
+]]></AnnotationText>
+          <DefaultAnnotationText>Vendas*.xlsx
+Query=`Planilha1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Região" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="UF" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Cidade" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="KPI" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="(Mês 01) Janeiro" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="(Mês 02) Fevereiro" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="(Mês 03) Março" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="(Mês 04) Abril" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="(Mês 05) Maio" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="(Mês 06) Junho" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="(Mês 07) Julho" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="(Mês 08) Agosto" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="(Mês 09) Setembro" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="(Mês 10) Outubro" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="(Mês 11) Novembro" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="(Mês 12) Dezembro" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Total" size="255" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="150" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Região" selected="True" />
+            <Field field="UF" selected="True" />
+            <Field field="Cidade" selected="True" />
+            <Field field="KPI" selected="True" />
+            <Field field="(Mês 01) Janeiro" selected="True" />
+            <Field field="(Mês 02) Fevereiro" selected="True" />
+            <Field field="(Mês 03) Março" selected="True" />
+            <Field field="(Mês 04) Abril" selected="True" />
+            <Field field="(Mês 05) Maio" selected="True" />
+            <Field field="(Mês 06) Junho" selected="True" />
+            <Field field="(Mês 07) Julho" selected="True" />
+            <Field field="(Mês 08) Agosto" selected="True" />
+            <Field field="(Mês 09) Setembro" selected="True" />
+            <Field field="(Mês 10) Outubro" selected="True" />
+            <Field field="(Mês 11) Novembro" selected="True" />
+            <Field field="(Mês 12) Dezembro" selected="True" />
+            <Field field="Total" selected="True" />
+            <Field field="FileName" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Auto Field</AnnotationText>
+          <DefaultAnnotationText>Auto Field</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Região" size="25" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="UF" size="2" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="String" />
+            <Field name="Cidade" size="20" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="KPI" size="11" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="String" />
+            <Field name="(Mês 01) Janeiro" size="16" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="(Mês 02) Fevereiro" size="18" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="(Mês 03) Março" size="14" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="(Mês 04) Abril" size="14" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="(Mês 05) Maio" size="13" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="(Mês 06) Junho" size="14" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="(Mês 07) Julho" size="14" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="(Mês 08) Agosto" size="15" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="(Mês 09) Setembro" size="17" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="(Mês 10) Outubro" size="16" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="(Mês 11) Novembro" size="17" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="(Mês 12) Dezembro" size="17" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Total" size="6" source="File: C:\Users\Faculdade\Desktop\CURSOS\POWER BI\PBI LÉO NEW\Materiais\M2A. Exercicios e Desafios no Power Query\Ex. 1 Descricao - Importando da Pasta e Combinando Arquivos Automaticamente\Vendas+2017.xlsx|||`Planilha1$`" type="String" />
+            <Field name="FileName" size="11" source="File: FileName" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="246" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="FileName" selected="True" />
+            <SelectField field="Região" selected="True" />
+            <SelectField field="UF" selected="True" />
+            <SelectField field="Cidade" selected="True" />
+            <SelectField field="KPI" selected="True" />
+            <SelectField field="(Mês 01) Janeiro" selected="True" />
+            <SelectField field="(Mês 02) Fevereiro" selected="True" />
+            <SelectField field="(Mês 03) Março" selected="True" />
+            <SelectField field="(Mês 04) Abril" selected="True" />
+            <SelectField field="(Mês 05) Maio" selected="True" />
+            <SelectField field="(Mês 06) Junho" selected="True" />
+            <SelectField field="(Mês 07) Julho" selected="True" />
+            <SelectField field="(Mês 08) Agosto" selected="True" />
+            <SelectField field="(Mês 09) Setembro" selected="True" />
+            <SelectField field="(Mês 10) Outubro" selected="True" />
+            <SelectField field="(Mês 11) Novembro" selected="True" />
+            <SelectField field="(Mês 12) Dezembro" selected="True" />
+            <SelectField field="Total" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Removendo Coluna Total
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Removendo Coluna Total]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="342" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!Contains([Região],"Região") AND
+!IsNull([KPI])</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Removendo Cabeçalhos e Linhas vazias</AnnotationText>
+          <DefaultAnnotationText>!Contains([Região],"Região") AND
+!IsNull([KPI])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="450" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>Região</UpdateField_Name>
+          <CreateField_Name>New Field</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>IF IsNull([Região]) THEN 
+[Row-1:Região]
+ELSE [Região]
+ENDIF</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Preenchendo Região para Baixo</AnnotationText>
+          <DefaultAnnotationText>IF IsNull([Região]) THEN 
+[Row-1:Região]
+ELSE [Região]
+ENDIF</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="546" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>UF</UpdateField_Name>
+          <CreateField_Name>New Field</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>IF IsNull([UF]) THEN 
+[Row-1:UF]
+ELSE [UF]
+ENDIF</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Preenchendo UF para Baixo</AnnotationText>
+          <DefaultAnnotationText>IF IsNull([UF]) THEN 
+[Row-1:UF]
+ELSE [UF]
+ENDIF</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="642" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>Cidade</UpdateField_Name>
+          <CreateField_Name>New Field</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>IF IsNull([Cidade]) THEN 
+[Row-1:Cidade]
+ELSE [Cidade]
+ENDIF</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Preenchendo Cidade para Baixo
+]]></AnnotationText>
+          <DefaultAnnotationText>IF IsNull([Cidade]) THEN 
+[Row-1:Cidade]
+ELSE [Cidade]
+ENDIF</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="798" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="FileName" />
+            <Field field="Região" />
+            <Field field="UF" />
+            <Field field="Cidade" />
+            <Field field="KPI" />
+          </KeyFields>
+          <DataFields>
+            <Field field="FileName" selected="False" />
+            <Field field="Região" selected="False" />
+            <Field field="UF" selected="False" />
+            <Field field="Cidade" selected="False" />
+            <Field field="KPI" selected="False" />
+            <Field field="(Mês 01) Janeiro" selected="True" />
+            <Field field="(Mês 02) Fevereiro" selected="True" />
+            <Field field="(Mês 03) Março" selected="True" />
+            <Field field="(Mês 04) Abril" selected="True" />
+            <Field field="(Mês 05) Maio" selected="True" />
+            <Field field="(Mês 06) Junho" selected="True" />
+            <Field field="(Mês 07) Julho" selected="True" />
+            <Field field="(Mês 08) Agosto" selected="True" />
+            <Field field="(Mês 09) Setembro" selected="True" />
+            <Field field="(Mês 10) Outubro" selected="True" />
+            <Field field="(Mês 11) Novembro" selected="True" />
+            <Field field="(Mês 12) Dezembro" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Transformando os Meses de Coluna para Linha</AnnotationText>
+          <DefaultAnnotationText>Transformando os Meses de Coluna para Linha</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="1026" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="FileName" />
+            <Field field="Região" />
+            <Field field="UF" />
+            <Field field="Cidade" />
+            <Field field="Name" />
+          </GroupFields>
+          <HeaderField field="KPI" />
+          <DataField field="Value" />
+          <Methods>
+            <Method method="Sum" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Fazendo as linha do KPI virarem Colunas</AnnotationText>
+          <DefaultAnnotationText>Fazendo as linha do KPI virarem Colunas</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FileName" size="11" source="CrossTab:Group:Sum:" type="String" />
+            <Field name="Região" size="25" source="CrossTab:Group:Sum:" type="V_String" />
+            <Field name="UF" size="2" source="CrossTab:Group:Sum:" type="String" />
+            <Field name="Cidade" size="20" source="CrossTab:Group:Sum:" type="V_String" />
+            <Field name="Name" size="19" source="CrossTab:Group:Sum:" type="String" />
+            <Field name="Faturamento" source="CrossTab:Header:KPI:Faturamento:Sum:" type="Double" />
+            <Field name="Quantidade" source="CrossTab:Header:KPI:Quantidade:Sum:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="906" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Value" selected="True" type="Float" size="4" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Setando os Valores para Float</AnnotationText>
+          <DefaultAnnotationText>Setando os Valores para Float</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="174" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>FileName</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Ano</RootName>
+          <Delimeters value="+" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Pegando o Ano do Título do Arquivo</AnnotationText>
+          <DefaultAnnotationText>Pegando o Ano do Título do Arquivo</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="498" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Ano2" selected="True" rename="Ano" />
+            <SelectField field="Name2" selected="True" rename="Mês" />
+            <SelectField field="FileName" selected="False" />
+            <SelectField field="Região" selected="True" />
+            <SelectField field="UF" selected="True" />
+            <SelectField field="Cidade" selected="True" />
+            <SelectField field="Faturamento" selected="True" />
+            <SelectField field="Quantidade" selected="True" />
+            <SelectField field="Ano1" selected="False" />
+            <SelectField field="Name" selected="False" />
+            <SelectField field="1" selected="True" />
+            <SelectField field="2" selected="True" />
+            <SelectField field="3" selected="True" />
+            <SelectField field="Name1" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Filtrando as colunas finais</AnnotationText>
+          <DefaultAnnotationText>Filtrando as colunas finais</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="66" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Faturamento] &gt; 0 AND [Quantidade] &gt; 0</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Registros onde Faturamento e Quantidade &gt; 0</AnnotationText>
+          <DefaultAnnotationText>[Faturamento] &gt; 0 AND [Quantidade] &gt; 0</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="282" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Name</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Name</RootName>
+          <Delimeters value=")" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Pegando o Mês por Extenso da Coluna</AnnotationText>
+          <DefaultAnnotationText>Pegando o Mês por Extenso da Coluna</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings>
+        <Position x="390" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Name2"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Tirando o espaço precedendo o nome do Mês</AnnotationText>
+          <DefaultAnnotationText>Tirando o espaço precedendo o nome do Mês</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="606" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Faculdade\Desktop\CURSOS\ALTERYX\Exportações\Vendas Consolidadas.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>;</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>65001</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Export Final para a ferramenta de BI em um arquivo Csv</AnnotationText>
+          <DefaultAnnotationText>Vendas Consolidadas.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="726" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>NotContains</Operator>
+            <Field>Região</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-08-16 22:04:32</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Total</Operand>
+              <StartDate>2022-08-16 22:04:32</StartDate>
+              <EndDate>2022-08-16 22:04:32</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Remove Totais das Linhas</AnnotationText>
+          <DefaultAnnotationText>!Contains([Região],"Total")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="True" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="True" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output26" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="True" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>4 - Vendas Consolidadas</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="a5a3b9a6-883c-4b72-9a3b-ae7ba7501f0b" />
+      <Telemetry>
+        <PreviousWorkflowId value="fa236e7e-17bb-4652-b112-2d9c5394efaa" />
+        <OriginWorkflowId value="fa236e7e-17bb-4652-b112-2d9c5394efaa" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
