@@ -1,1 +1,1 @@
-
+Peguei uma base do Curso de Alteryx que estou fazendo na Udemy e decidir fazer a modelagem dimensional do arquivo Excel, onde um único arquivo foi separado em 4 arquivos CSV visando uma estrutura Star Schema que pudesse ser consumida em alguma ferramenta de Business Intelligence por exemplo.
